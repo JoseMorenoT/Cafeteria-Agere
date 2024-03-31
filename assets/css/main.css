@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a, ul, li {
+  font-family: "PT Mono", monospace;
+}
+
+.form-login__container-buttons {
+  gap: 30px;
+}
+
+.btn {
+  padding: 5px;
+}
+.btn--shiny {
+  background-color: #4CA866;
+  color: #FFF;
+  border: 1px solid #4CA866;
+}
+
+.link {
+  text-decoration: none;
+  color: #a2a2a2;
+}
+
+.navbar__logo {
+  width: 2em;
+}
+
+.navbar {
+  padding: 30px;
+  margin: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.section-1__container {
+  display: flex;
+}
+.section-1__container-text {
+  position: relative;
+  z-index: 1;
+  width: 550px;
+  display: flex;
+  height: 100px;
+  justify-content: space-evenly;
+  background-color: #FFF;
+  top: 340px;
+  left: 350px;
+  right: 0;
+  bottom: 0;
+}
+.section-1__container-box {
+  position: relative;
+  width: 400px;
+  height: 440px;
+  background-color: #FFF;
+  left: 400px;
+}
+.section-1__container-box--title {
+  font-size: 70px;
+  text-align: start;
+  padding: 0;
+  font-family: "PT Mono", monospace;
+  padding-top: 50px;
+}
+.section-1__container-variedades {
+  width: 30%;
+  padding: 10px;
+}
+.section-1__container-variedades--info1 {
+  font-size: 40px;
+  font-family: "PT Mono", monospace;
+}
+.section-1__container-variedades--info2 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.section-1__container-variedades--info3 {
+  font-size: 30px;
+  position: relative;
+  left: 0px;
+  font-family: "Roboto", sans-serif;
+  color: #989797;
+}
+.section-1__container-box2--cuadradoamarillo {
+  position: relative;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  background-color: #F1DD7B;
+  top: 340px;
+  left: -50px;
+}
+.section-1__container-box2--cuadradonaranjo {
+  position: relative;
+  z-index: 2;
+  width: 100px;
+  height: 100px;
+  background-color: #FA824C;
+  top: 220px;
+  left: -70px;
+}
+
+.section-1__image {
+  position: absolute;
+}
+
+.flecha {
+  font-size: 70px;
+  color: #FFF;
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
+
+.section-2__container {
+  display: flex;
+}
+.section-2__container-box-text {
+  position: relative;
+  width: 350px;
+  height: 200px;
+  background-color: #FFF;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.section-2__container-box-text--title {
+  font-size: 30px;
+  font-family: "PT Mono", monospace;
+  width: 90%;
+}
+.section-2__container-box-text--info1 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+}
+.section-2__container--cuadradoceleste {
+  width: 550px;
+  height: 200px;
+  background-color: #5FA5EA;
+}
+.section-2__container-maps {
+  position: relative;
+  width: 75%;
+  top: 20px;
+}
+.section-2__container--boxcafe {
+  z-index: 1;
+  position: absolute;
+  overflow: cover;
+  top: 550px;
+  left: 800px;
+}
+.section-2__container-cafe {
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section-2__container-cafetera {
+  position: absolute;
+  width: 550px;
+  height: 250px;
+}/*# sourceMappingURL=main.css.map */

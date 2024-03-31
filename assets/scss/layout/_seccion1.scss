@@ -1,0 +1,95 @@
+.sec1__container {
+    display: flex;
+
+    &-text {
+        position: relative;
+        z-index: 1;
+        // display: inline-block;
+        width: 550px;
+        display: flex;
+        height: 100px;
+        justify-content: space-evenly;
+        background-color: $white;
+        top: 340px;
+        left: 350px;
+        right: 0;
+        bottom: 0;
+    }
+
+    &-box {
+        position: relative;
+        width: 400px;
+        height: 440px;
+        background-color: $white;
+        left: 400px;
+        
+
+        &--title {
+            font-size: $fs1;
+            text-align: start;
+            padding: 0;
+            font-family: $mono-font;
+            padding-top: 50px;
+
+        }
+    }
+
+    &-variedades {
+        width: 30%;
+        padding: 10px;
+
+        &--info1 {
+            font-size: $fs2;
+            font-family: $mono-font;
+        }
+
+        &--info2 {
+            font-size: $fs5;
+            font-family: $roboto-font;
+        }
+
+        &--info3 {
+            font-size: $fs3;
+            position: relative;
+            left: 0px;
+            font-family: $roboto-font;
+            color: $gray;
+
+        }
+
+
+    }
+&-box2 {
+    &--cuadradoamarillo {
+        position: relative;
+        z-index: 1;
+        width: 100px;
+        height: 100px;
+        background-color: $buff;
+        top: 340px;
+        left: -50px;
+    }
+    &--cuadradonaranjo {
+        position: relative;
+        z-index: 2;
+        width: 100px;
+        height: 100px;
+        background-color: $coral;
+        top: 220px;
+        left: -70px;
+    }
+}
+
+}
+
+.sec1__image {
+    position: absolute;
+}
+
+.flecha {
+    font-size: $fs1;
+    color: $white;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}

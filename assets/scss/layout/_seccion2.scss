@@ -1,0 +1,59 @@
+.sec2__container {
+    display: flex;
+
+    &-box-text {
+        position: relative;
+        width: 350px;
+        height: 200px;
+        background-color: $white;
+        padding-top: 30px;
+        padding-left: 30px;
+
+        &--title {
+            font-size: $fs3;
+            font-family: $mono-font;
+            width: 90%;
+        }
+
+        &--info1 {
+            font-size: $fs5;
+            font-family: $roboto-font;
+            width: 90%;
+        }
+
+    }
+
+    &--cuadradoceleste {
+        width: 550px;
+        height: 200px;
+        background-color: $bluej;
+    }
+
+    &-maps {
+        position: relative;
+        width: 75%;
+        top: 20px;
+    }
+
+    &--boxcafe {
+        z-index: 1;
+        position: absolute;
+        overflow: cover;
+        top: 550px;
+        left: 800px;
+    }
+
+    &-cafe {
+        position: absolute;
+        width: 100px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    &-cafetera {
+        position: absolute;
+        width: 550px;
+        height: 250px;
+    }
+
+}

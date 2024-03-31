@@ -1,0 +1,14 @@
+.form-login__container-buttons {
+    gap: $sp5;
+}
+
+.btn {
+    padding: 5px;
+    
+    &--shiny {
+        background-color: $shiny;
+        color: $white;
+        border: 1px solid $shiny;
+    }
+
+}

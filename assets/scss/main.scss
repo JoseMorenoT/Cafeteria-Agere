@@ -1,0 +1,22 @@
+// abstracts/ 
+@import 
+'abstracts/variables';
+// base/ 
+@import 
+'base/reset',
+'base/typography'; 
+// components/
+@import 
+'components/buttons', 
+'components/links', 
+'components/logo';
+// layout/ 
+@import 
+'layout/navbar',
+'layout/seccion1',
+'layout/seccion2';
+// pages/ 
+// themes/
+// vendors/ 
+@import
+'vendors/fontawesome';
